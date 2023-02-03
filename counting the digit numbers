@@ -1,0 +1,21 @@
+ public class Main
+{
+ static int count=0;
+ static int value(int n)
+{
+  while(n!=0)
+  {
+    n= n/10;
+    count++;
+  }
+  return count;
+}
+  
+  public static void main(String [] args)
+  {
+    System.out.println("count = "+ value(1234));
+    }
+}
+
+    
+  
